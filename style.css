@@ -23,11 +23,12 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        font-weight: 800;
+        font-weight: 500;
         color: rgb(16, 64, 111);
         text-shadow: 2px 2px 10px rgba(159, 218, 255, 0.759);
     }
 
 }
+
 
 
