@@ -1,4 +1,4 @@
- function dongho() {
+ function clock() {
         var time = new Date();
         var gio = time.getHours();
         var phut = time.getMinutes();
@@ -14,6 +14,7 @@
             giay = "0" + giay;
 
         document.getElementById("time").innerHTML = gio + ":" + phut + ":" + giay;
-        setTimeout("dongho()", 1000);
+        setTimeout("clock()", 1000);
     }
-    dongho();
+
+    clock();
